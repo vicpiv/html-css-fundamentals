@@ -1,2 +1,2 @@
 # html-css-fundamentals
-project for exercising 
+project for exercising programming
