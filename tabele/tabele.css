@@ -1,0 +1,20 @@
+table {
+    border-style: solid;
+    border-color: mediumblue;
+    border-spacing: 0em;
+    border-collapse: collapse;
+}
+td {
+    border-style: solid;
+    border-color: orangered;
+    padding: 0.5em;
+}
+th {
+    border-style: solid;
+    border-color: purple;
+    background-color: teal;
+    color: white;
+    text-align: left;
+    text-transform: uppercase;
+    padding-right: 0.5em;
+}

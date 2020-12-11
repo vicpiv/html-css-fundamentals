@@ -1,0 +1,49 @@
+body {
+    height: 200vh;
+}
+div {
+    width: 5em;
+    height: 5em;
+    font-family: sans-serif;
+    color:black;
+    text-align: center;
+    line-height: 5em;
+
+}
+#a {
+    background-color: tomato;
+    position: relative;
+    top: 1em;
+    right: -1em;
+}
+#b {
+    background-color: yellow;
+    position: absolute;
+    top: 3em;
+    right: 2em;
+}
+#c {
+    background-color: royalblue;
+    position: fixed;
+    top: 0%;
+    left: 10em;
+}
+#d {
+    background-color: rgb(65, 206, 225);
+    position: sticky;
+    top: 2em;
+}
+#parinte{
+    width: 10em;
+    height: 10em;
+    background-color: green;
+    position: relative;
+
+}
+#copil{
+   
+    background-color: maroon;
+    position: absolute;
+    top: 2em;
+
+}
