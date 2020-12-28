@@ -21,19 +21,44 @@ a {
     color:rgb(200,200,200);
     text-decoration: none;
     margin-right: 1.5em;
+    transition-duration: 1s;
+    display: inline-block;
+}
+a:hover {
+    color: sandybrown;
+    transform: scale(1.1);
 }
 article {
     background-color: rgb(210,210,210);
     text-align: center;
     padding-bottom: 3em;
 }
+@keyframes colorize {
+    from {
+        color: black;
+    }
+    to {
+        color: orange;
+    }
+}
 h1 {
     font-family: monospace;
     text-align: center;
     padding: 1.5em;
+    animation-name: colorize;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 img {
     height: 45vh;
+    transition-duration: 2s;
+    
+}
+img:hover {
+    height: 50vh;
+    transform: rotate(360deg);
+    transform: translate(50px, 100px);
 }
 article div {
     display: inline-block;
@@ -63,3 +88,4 @@ footer {
 p {
     margin-bottom: 1em;
 }
+
