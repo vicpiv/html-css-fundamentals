@@ -59,6 +59,7 @@ img:hover {
     height: 50vh;
     transform: rotate(360deg);
     transform: translate(50px, 100px);
+    opacity: 0.7;
 }
 article div {
     display: inline-block;
