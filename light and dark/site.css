@@ -24,9 +24,13 @@ nav ul li {
     list-style-type: none;
     text-transform: uppercase;
 }
-#switch {
+#switch::before {
+    content: var(--symbol);
     font-size: 1.5em;
+    position: relative;
     cursor: pointer;
+    top: -0.1em;
+    font-family: "Font Awesome 5 Free";
    
 }
 div {
